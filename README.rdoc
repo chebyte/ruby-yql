@@ -1,6 +1,15 @@
-= ruby-yql
+== ruby-yql
 
-Description goes here.
+This gem is for use the API of yahoo yql with oauth support, so you can use the api-key that yahoo bring you and this allow you to use more features than the public api offer you
+
+== Install
+
+  gem install ruby-yql
+
+== Usage
+
+  Chebyte::Yahoo::GeoLoc.new(api_key, shared_key).find_by_address("100 Spear st, San Francisco, CA").coords #"37.779598, -122.420143"
+
 
 == Contributing to ruby-yql
  
