@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'net/http'
 require 'hpricot'
 require 'cgi'
@@ -86,7 +87,7 @@ module Chebyte
   end
 
   class GeoLoc
-    def initialize(api_key = 'dj0yJmk9aHhiV1JPeXpRZDRxJmQ9WVdrOVVWVnVOVWxtTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD00Yw--', share_key = '92d98ea113c0246d6a91b3858ea3f16ea1e87338')
+    def initialize(api_key, share_key)
       @o = OauthUtil.new
       @o.consumer_key    = api_key
       @o.consumer_secret = share_key
