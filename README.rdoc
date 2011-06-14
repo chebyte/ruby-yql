@@ -8,7 +8,13 @@ This gem is for use the API of yahoo yql with oauth support, so you can use the 
 
 == Usage
 
+=== Get coords by address
+
   Chebyte::Yahoo::GeoLoc.new(api_key, shared_key).find_by_address("100 Spear st, San Francisco, CA").coords #"37.779598, -122.420143"
+
+=== Run custom yahoo sql
+
+Chebyte::Yahoo::GeoLoc.new(api_key, shared_key).find("your custom yahoo sql")
 
 
 == Contributing to ruby-yql
