@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/ruby-yql.rb",
+    "ruby-yql.gemspec",
     "test/helper.rb",
     "test/test_ruby-yql.rb"
   ]
